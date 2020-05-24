@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-App-V2</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" 
+    rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css"
+      integrity="sha256-wfbbsQFYKnizQi/WLPXS3wVDu0Dpi2yUQpZBDsb2H1s="
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/74f151bf0f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-contant">
+        <header>
+          <h1>Ahmet's Todo List</h1>
+        </header>
+        <form>
+          <input type="text" class="todo-input" />
+          <button class="todo-button" type="submit">
+            <span class="style-span">
+              <i class="fas fa-plus"></i>
+            </span>
+          </button>
+          <select id="option">
+            <option value="All">All</option>
+            <option value="Comleted">Comleted</option>
+            <option value="Uncomleted">Uncomleted</option>
+          </select>
+        </form>
+        <div class="todo-contaier">
+          <ul class="todo-list">
+            <div id="deneme" class="todo-item">
+              <div class="todo-write">
+                <p>
+                  deneme
+                </p>
+              </div>
+              <div class="button">
+                <button class="todo-check" type="submit">
+                  <span class="fa-check-span" style="font-size: 1.5em;">
+                    <i class="fas fa-check"></i>
+                  </span>
+                </button>
+                <button class="todo-times" type="submit">
+                  <span class="fa-trash-span" style="font-size: 1.5em;">
+                    <i class="fas fa-trash"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="todo-item">
+              <div class="todo-write">
+                <p>
+                  deneme
+                </p>
+              </div>
+              <div class="button">
+                <button class="todo-check" type="submit">
+                  <span class="fa-check-span" style="font-size: 1.5em;">
+                    <i class="fas fa-check"></i>
+                  </span>
+                </button>
+                <button class="todo-times" type="submit">
+                  <span class="fa-trash-span" style="font-size: 1.5em;">
+                    <i class="fas fa-trash"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
